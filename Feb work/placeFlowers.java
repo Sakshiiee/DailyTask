@@ -25,7 +25,7 @@ class placeFlowers {
     public static void main(String[] args) {
         Solution sol = new Solution();
         int[] flowerbed1 = {1, 0, 0, 0, 1};
-        System.out.println(sol.canPlaceFlowers(flowerbed1, 1)); // Output: true
-        System.out.println(sol.canPlaceFlowers(flowerbed1, 2)); // Output: false
+        System.out.println(sol.canPlaceFlowers(flowerbed1, 1));
+        System.out.println(sol.canPlaceFlowers(flowerbed1, 2));
     }
 }
