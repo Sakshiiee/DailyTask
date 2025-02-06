@@ -6,15 +6,8 @@ public class maxTripProduct {
         if (n < 3) {
             throw new IllegalArgumentException("Array should have at least 3 elements");
         }
-
-        // Sort the array
         Arrays.sort(arr);
-
-        // Maximum product can be either:
-        // 1. Product of the three largest numbers
         int option1 = arr[n - 1] * arr[n - 2] * arr[n - 3];
-
-        // 2. Product of two smallest (negative) numbers and the largest number
         int option2 = arr[0] * arr[1] * arr[n - 1];
 
         return Math.max(option1, option2);
