@@ -20,18 +20,18 @@ public class autoStars{
 
         switch (choice) {
             case 1:
-                printTriangle(n);
+                traingleMade(n);
                 break;
             case 2:
-                printSquare(n);
+                squareMade(n);
                 break;
             case 3:
-                printPyramid(n);
+                pyramidMade(n);
                 break;
             default:
                 System.out.println("Invalid choice!");
                 System.out.println("Default pattern is triangle: ");
-                printTriangle(n);
+                pyramidMade(n);
         }
     
         }catch (Exception e){
@@ -43,7 +43,7 @@ public class autoStars{
     }
 
     
-    public static void printTriangle(int n) {
+    public static void traingleMade(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
@@ -53,7 +53,7 @@ public class autoStars{
     }
 
 
-    public static void printSquare(int n) {
+    public static void squareMade(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 System.out.print("* ");
@@ -63,7 +63,7 @@ public class autoStars{
     }
 
 
-    public static void printPyramid(int n) {
+    public static void pyramidMade(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = n - i; j > 0; j--) {
                 System.out.print(" ");
