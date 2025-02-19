@@ -6,7 +6,6 @@ public class Main {
         manager.displayInfo();
         System.out.println();
         System.out.println();
-        System.out.println();
         programmer.displayInfo();
     }
 }

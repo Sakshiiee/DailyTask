@@ -13,6 +13,7 @@ class Manager extends Employee {
 
     @Override
     public void displayInfo() {
+        System.out.println("Manager: ");
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Salary: " + calculateSalary());
