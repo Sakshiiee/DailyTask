@@ -13,6 +13,8 @@ public class LinkedListDemo1{
         LL.add(10);
         LL.add("String");
 
+        //second way of iteration
+
         Iterator itr = LL.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());

@@ -11,6 +11,7 @@ public class ArrayListDemo4{
         ar.add(1);
         ar.add(1);              // //duplicates are allowed
         ar.add(null);         //null is allowed
+       // ar.add("saskhii");
 
         //first way of iteration
        System.out.println(ar);

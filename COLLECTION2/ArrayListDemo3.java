@@ -21,8 +21,7 @@ public class ArrayListDemo3{
         // }
 
         //third way of iteration by ForEach loop
-        for(Object obj :
-        ar){
+        for(Object obj : ar){
             System.out.println(obj);
 
 

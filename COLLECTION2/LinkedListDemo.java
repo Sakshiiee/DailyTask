@@ -13,6 +13,9 @@ public class LinkedListDemo{
         arr.add(1);
         arr.add(null);
 
+
+        //fist way of iteration
+
         System.out.println(arr);
 
         int a = arr.size();
