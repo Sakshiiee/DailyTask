@@ -6,10 +6,10 @@ public class ConvertLL{
 
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
-        LinkedList LL = new LinkedList<>();
+        LinkedList<Integer> LL = new LinkedList<>();
 
             for(int i : arr){
-                LL.add(i);
+                LL.add(i);       
             }
 
             System.out.println("Linkedlist: " + LL);
@@ -17,3 +17,5 @@ public class ConvertLL{
         
     }
 }
+//why Collection is accept primitive data type
+// ans - autoboxing - collection internally do primitive to wrapper class (int - Integer)

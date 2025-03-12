@@ -4,8 +4,9 @@ public class OptionalDemo{
     public static void main(String args[]){
 
         //String str="sokshi";
-        String str= null;                              
-       //String str1="sakshi";
+         String str= null;     
+        //  String str= "abc";                           
+       String str1="sakshi";
 
         Optional<String> op = Optional.ofNullable(str);
 
@@ -16,6 +17,7 @@ public class OptionalDemo{
         //System.out.println(op.get());                           //  if trying to get NULL value = will give exception NoSuchElementException
        //System.err.println(op.orElse(str));
        //System.out.println("No value");
-       System.out.println(op.stream());
+       System.out.println(op.stream());  
+        System.out.println(op.stream().count());            
     }
 }

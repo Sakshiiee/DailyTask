@@ -63,8 +63,12 @@ public class equalNum{
         } catch (InputMismatchException e) {
 
             System.out.println("Invalid !! Write integers only! ");
-            System.out.println("Not successful");
+            
         }
+        finally{
+            s.close();
+            
+     }
         
         
     }

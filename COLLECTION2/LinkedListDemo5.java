@@ -11,7 +11,7 @@ public class LinkedListDemo5{
         LL.add(null);
         LL.add(true);
         //LL.add(10);
-        LL.add("sakshi");
+        //LL.add("sakshi");
 
         // THIRD WAY OF ITERARTION USING FOR EACH
 

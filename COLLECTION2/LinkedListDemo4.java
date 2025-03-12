@@ -14,6 +14,9 @@ public class LinkedListDemo4{
         LL.add(null);
 
 
+        //second way of iteration using hasnext (iterator)
+
+
         Iterator itr = LL.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
